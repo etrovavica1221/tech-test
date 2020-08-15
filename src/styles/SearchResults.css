@@ -1,0 +1,14 @@
+.SearchResults {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    border-style: ridge;
+    padding: 20px;
+    position: relative;
+    top: 30px;
+}
+
+p {
+    margin: 30px auto;
+    font-size: 25px;
+}
