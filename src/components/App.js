@@ -4,7 +4,8 @@ import Search from'./Search.js/Search'
 import SearchResults from './SearchResults';
 
 function App() {
-  const [searchResults, setSearchResults] = useState();
+  const [searchResults, setSearchResults] = useState([]);
+  
   return (
     <div className="App">
         <img
