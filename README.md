@@ -12,8 +12,10 @@ The following functionalities needed to be implemented:
 Clone my repo and open index.html. It will open a tab in your browser.
 
 <p float="left">
+    <div>Desktop view</div>
     <img src="nasa-desktop.png" width="412" />
-    <img src="nasa-mobile.png" width="110" />
+    <div>Mobile view</div>
+    <img src="nasa-mobile.png" width="160" />
 </p>
 
 ## Technologies
