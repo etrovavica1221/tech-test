@@ -2,9 +2,10 @@ import React from 'react';
 import '../styles/SearchResults.css';
 import PropTypes from 'prop-types';
 
-const SearchResults = ({ results }) => {
+const SearchResults = ({ results }) => {  
+
     if (!results.length) {
-        return <p id="p-NoResults">No results</p>   
+        return <p id="p-NoResults" >No results</p>   
     } else {  
         return(
             <span>

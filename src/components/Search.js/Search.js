@@ -3,12 +3,13 @@ import PropTypes from 'prop-types';
 import '../../styles/Search.css';
 import getImages from '../../requests/getImages.js';
 
-const Search = ({ setSearchResults }) => {
+const Search = ({ setSearchResults, setIsFirstTimeVisit }) => {
 
     const [value, setValue] = useState();
 
     const handleSubmit = async(e) => {
         e.preventDefault();
+        setIsFirstTimeVisit(false);
         setSearchResults(await getImages(value));
     };
 
