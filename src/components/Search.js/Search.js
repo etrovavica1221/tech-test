@@ -9,8 +9,8 @@ const Search = ({ setSearchResults, setIsFirstTimeVisit }) => {
 
     const handleSubmit = async(e) => {
         e.preventDefault();
-        setIsFirstTimeVisit(false);
         setSearchResults(await getImages(value));
+        setIsFirstTimeVisit(false);
     };
 
     return(
