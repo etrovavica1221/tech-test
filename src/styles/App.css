@@ -9,3 +9,9 @@
   margin: auto;
 }
 
+@media only screen and (max-width: 600px) {
+  .nasa-logo {
+      width: 400px;
+  }
+}
+

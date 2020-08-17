@@ -14,10 +14,17 @@ span {
     align-items: space-between;
     justify-content: space-between;
     padding: 10px;
+    height: 280px;
     width: 360px;
     margin: 10px auto;
-    height: 280px;
     border: 0.3px solid #a09b9b;
+}
+
+.card-image:hover {
+    padding: 15px;
+    border: 2px solid #bd0d00;
+    background-color: rgb(7, 7, 7);
+    transition: padding 0.5s;
 }
 
 #p-SearchResults {
@@ -29,4 +36,57 @@ span {
 #p-NoResults {
     font-size: 30px;
     margin: 20px auto; 
+}
+
+@media only screen and (max-width: 1250px) {
+    .card-image {
+        width: 300px;
+        height: 220px;
+    }
+}
+
+@media only screen and (max-width: 1120px) {
+    .SearchResults {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .card-image {
+        align-items: space-around;
+    }
+
+    #p-SearchResults {
+        left: 38%;
+    }
+}
+
+@media only screen and (max-width: 780px) {
+    .SearchResults {
+        grid-template-columns: 1fr;
+    }
+
+    .card-image {
+        align-items: space-around;
+        width: 380px;
+        height: 300px;
+    }
+
+    #p-SearchResults {
+        left: 35%;
+    }
+}
+
+@media only screen and (max-width: 580px) {
+    .SearchResults {
+        grid-template-columns: 1fr;
+    }
+
+    .card-image {
+        align-items: space-around;
+        width: 300px;
+        height: 220px;
+    }
+
+    #p-SearchResults {
+        left: 30%;
+    }
 }
