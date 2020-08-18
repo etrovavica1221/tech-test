@@ -9,7 +9,7 @@ The following functionalities needed to be implemented:
 
 ## Setup
 
-Clone my repo and open index.html. It will open a tab in your browser.
+Clone my repo and open index.html, it will open a tab in your browser or follow the link https://etrovavica1221.github.io/tech-test/ .
 
 <p float="left">
     <div>Desktop view</div>
